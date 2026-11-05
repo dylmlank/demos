@@ -11,7 +11,7 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=Barlow+Condensed:wght@500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -175,6 +175,60 @@ footer a { color: rgba(255,255,255,0.72); }
   html { scroll-behavior: auto; }
   .btn:hover, .card:hover { transform: none; }
 }
+
+.nav { position: static; }
+.hero::after { display: none; }
+.eyebrow { background: none; border: 0; padding: 0; text-transform: none; letter-spacing: 0; font-size: 1rem; }
+.kicker { text-transform: none; letter-spacing: 0; font-size: 1rem; }
+.fact dt, .contact-line span { text-transform: none; letter-spacing: 0; font-size: 0.85rem; }
+.card:hover, .btn:hover { transform: none; box-shadow: none; }
+.card .icon { display: none; }
+a:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+
+:root { --ink: #5A2231; --primary: #8C3B4F; --accent: #EFC3BE; --paper: #FCF3F1; --text: #4A2530;
+  --muted: #76505A; --line: rgba(140,59,79,.25); --display: 'Gilda Display', Georgia, serif;
+  --body: 'Mulish', 'Segoe UI', sans-serif; }
+h2, .hero h1, .card h3, .brand { font-weight: 400; letter-spacing: 0; }
+body { line-height: 1.75; }
+.demo-banner { background: #5A2231; }
+.nav { background: #FCF3F1; border: 0; justify-content: center; flex-wrap: wrap; padding-top: 1.4rem; }
+.nav-links { margin: 0; }
+.mark { display: none; }
+.brand { font-size: 1.5rem; color: #8C3B4F; }
+.btn, .btn-sm { border-radius: 99px; }
+.hero { background: #FCF3F1; color: #5A2231; padding: 1.5rem 5vw 0; text-align: center; }
+.hero-inner { margin: 0 auto; max-width: 760px; background: #F6DAD6; border-radius: 380px 380px 0 0; padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.5rem, 6vw, 4.5rem) clamp(2.5rem, 5vw, 3.5rem); }
+.hero-inner::before { content: ""; display: block; width: clamp(84px, 9vw, 104px); aspect-ratio: 1; margin: 0 auto .2rem; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200' fill='none' stroke='%238C3B4F' stroke-width='3.5' stroke-linecap='round'%3E%3Cpath d='M100 44c26 0 44 18 44 40s-20 42-44 42-44-20-44-42 18-40 44-40z'/%3E%3Cpath d='M100 64c15 0 25 10 25 22 0 14-12 22-25 22s-23-9-23-21c0-11 10-16 21-14 9 2 13 9 10 15'/%3E%3Cpath d='M100 126c2 22-4 38-14 62'/%3E%3Cpath d='M94 158c-22-14-42-8-52 2 18 10 38 10 52-2zM96 148c18-14 36-14 50-6-14 12-34 16-50 6z'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hero h1 { font-size: clamp(2.5rem, 4.8vw, 3.8rem); line-height: 1.08; }
+.eyebrow { color: #8C3B4F; font-style: italic; font-family: var(--display); font-size: 1.2rem; margin-bottom: .4rem; }
+.hero .lede { color: #5A2231; margin-inline: auto; }
+.hero-actions { justify-content: center; }
+.btn-primary { background: #8C3B4F; box-shadow: none; }
+.btn-ghost { border-color: #8C3B4F; color: #8C3B4F; }
+.btn-ghost:hover { background: #8C3B4F; color: #fff; }
+.hero-rating { color: #8C3B4F; }
+.hero-rating span { color: #5A2231; }
+#services { padding-top: clamp(3rem, 6vw, 5rem); }
+.kicker { color: #8C3B4F; font-family: var(--display); font-style: italic; font-size: 1.15rem; }
+.grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2.5rem; }
+.card, .card:hover { background: none; border: 0; border-radius: 0; padding: 0 .5rem; text-align: center; }
+.card h3 { font-size: 1.6rem; color: #8C3B4F; }
+.section.alt { background: #F6DAD6; }
+.facts { background: #FCF3F1; border: 0; border-radius: 180px 180px 16px 16px; padding: 3.5rem 2rem 2rem; text-align: center; }
+.fact dt { color: #8C3B4F; }
+.contact { background: #FCF3F1; color: #5A2231; text-align: center; }
+.contact h2 { color: #8C3B4F; }
+.contact .kicker, .contact-line span { color: #8C3B4F; }
+.contact .lede { color: #76505A; }
+.contact-line { background: #F6DAD6; border: 0; border-radius: 99px; }
+.contact-line:hover { background: #EFC3BE; }
+.contact-note { color: #76505A; }
+.hours { background: #F6DAD6; border: 0; border-radius: 28px; text-align: left; color: #5A2231; }
+.hour-row { border-color: rgba(140,59,79,.2); }
+.hour-row span:first-child { color: #76505A; }
+footer { background: #5A2231; color: #F6DAD6; border: 0; }
+footer a { color: #fff; }
+@media (max-width: 860px) { .hero-inner { border-radius: 220px 220px 0 0; } }
 </style>
 </head>
 <body>

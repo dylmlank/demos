@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ehigh Construction — Home Remodeling in Redmond</title>
+<meta name="description" content="Kitchens, baths, and whole-home renovations, planned with you and built with care.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Ehigh Construction — Home Remodeling in Redmond">
+<meta property="og:description" content="Kitchens, baths, and whole-home renovations, planned with you and built with care.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ehigh Construction",
+  "description": "Home Remodeling serving Redmond.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "21714 NE 76th St, Redmond, WA 98053"
+  },
+  "telephone": "(425) 868-0416",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 10
+  }
+}
+</script>
+<style>
+:root {
+  --ink: #101722;
+  --ink-2: color-mix(in srgb, #101722 84%, white);
+  --primary: #f77f00;
+  --accent: #fcbf49;
+  --paper: #ffffff;
+  --text: #1b2130;
+  --muted: #5b6577;
+  --line: rgba(20,28,45,0.10);
+  --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--body); color: var(--text); background: var(--paper); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+
+.demo-banner {
+  position: sticky; top: 0; z-index: 60;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color: #fff; font-size: 0.83rem; padding: 0.6rem 5vw;
+  display: flex; gap: 0.55rem; flex-wrap: wrap; align-items: center; justify-content: center;
+  text-align: center; line-height: 1.45;
+}
+.demo-banner a { color: #fff; font-weight: 700; text-underline-offset: 3px; }
+
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; gap: 1.5rem;
+  padding: 0.9rem 5vw; background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 0.6rem; font-family: var(--display); font-weight: 700; font-size: 1.12rem; text-decoration: none; letter-spacing: -0.01em; }
+.mark {
+  display: grid; place-items: center; width: 34px; height: 34px; border-radius: 9px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #fff; font-size: 0.85rem; letter-spacing: 0.02em; flex: none;
+}
+.nav-links { display: flex; gap: 1.4rem; margin-left: auto; font-size: 0.93rem; font-weight: 500; }
+.nav-links a { text-decoration: none; color: var(--muted); }
+.nav-links a:hover { color: var(--primary); }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
+  font-weight: 650; font-size: 0.97rem; text-decoration: none;
+  padding: 0.78rem 1.5rem; border-radius: 10px; border: 1.5px solid transparent;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-primary { background: var(--primary); color: #fff; box-shadow: 0 8px 22px -8px var(--primary); }
+.btn-ghost { border-color: rgba(255,255,255,0.4); color: #fff; }
+.btn-ghost:hover { background: rgba(255,255,255,0.12); }
+.btn-sm { padding: 0.52rem 1rem; font-size: 0.88rem; background: var(--primary); color: #fff; }
+
+.hero {
+  background: linear-gradient(155deg, var(--ink) 0%, var(--ink-2) 55%, color-mix(in srgb, var(--primary) 38%, var(--ink)) 100%);
+  color: #fff; padding: clamp(4.5rem, 11vw, 8rem) 5vw; position: relative; overflow: hidden;
+}
+.hero::after {
+  content: ""; position: absolute; width: 60vw; height: 60vw; right: -18vw; top: -22vw;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 30%, transparent) 0%, transparent 62%);
+  pointer-events: none;
+}
+.hero-inner { max-width: 780px; position: relative; z-index: 1; }
+.eyebrow {
+  display: inline-block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase;
+  color: var(--accent); background: rgba(255,255,255,0.09); border: 1px solid rgba(255,255,255,0.16);
+  padding: 0.36rem 0.9rem; border-radius: 100px; margin-bottom: 1.3rem;
+}
+.hero h1 { font-family: var(--display); font-size: clamp(2.3rem, 6.2vw, 4.1rem); line-height: 1.06; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1.1rem; }
+.hero .lede { font-size: clamp(1.02rem, 1.9vw, 1.2rem); color: rgba(255,255,255,0.82); max-width: 60ch; }
+.hero-actions { display: flex; gap: 0.85rem; flex-wrap: wrap; margin-top: 2rem; }
+.hero-rating { margin-top: 2rem; color: var(--accent); font-size: 1.15rem; letter-spacing: 0.08em; }
+.hero-rating span { color: rgba(255,255,255,0.72); font-size: 0.9rem; letter-spacing: 0; margin-left: 0.5rem; }
+
+.section { padding: clamp(3.5rem, 8vw, 6rem) 5vw; max-width: 1120px; margin: 0 auto; }
+.section.alt { max-width: none; background: #f7f9fc; }
+.section-head { text-align: center; max-width: 640px; margin: 0 auto 3rem; }
+.kicker { display: block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--primary); margin-bottom: 0.7rem; }
+h2 { font-family: var(--display); font-size: clamp(1.75rem, 3.6vw, 2.5rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; }
+.section-sub { color: var(--muted); margin-top: 0.8rem; }
+.lede { color: var(--muted); font-size: 1.04rem; margin-top: 0.9rem; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.3rem; }
+.card {
+  background: var(--paper); border: 1px solid var(--line); border-radius: 15px; padding: 1.7rem 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px -22px rgba(14,20,40,0.4); border-color: color-mix(in srgb, var(--primary) 35%, var(--line)); }
+.card .icon { font-size: 1.7rem; margin-bottom: 0.85rem; }
+.card h3 { font-family: var(--display); font-size: 1.16rem; font-weight: 700; margin-bottom: 0.5rem; }
+.card p { color: var(--muted); font-size: 0.95rem; }
+
+.about-wrap {
+  max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1.35fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem); align-items: center;
+}
+.about-wrap .btn { margin-top: 1.8rem; }
+.facts { background: var(--paper); border: 1px solid var(--line); border-radius: 15px; padding: 1.7rem; }
+.fact { padding: 0.85rem 0; border-bottom: 1px solid var(--line); }
+.fact:last-child { border-bottom: 0; padding-bottom: 0; }
+.fact:first-child { padding-top: 0; }
+.fact dt { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--primary); margin-bottom: 0.3rem; }
+.fact dd { font-size: 0.97rem; }
+.fact dd a { text-decoration: none; }
+
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.3rem; }
+.quote { background: #f7f9fc; border-left: 3px solid var(--primary); border-radius: 0 13px 13px 0; padding: 1.5rem; }
+.quote p { font-size: 0.98rem; font-style: italic; }
+.quote cite { display: block; margin-top: 0.9rem; font-size: 0.86rem; font-style: normal; font-weight: 600; color: var(--muted); }
+
+.contact { background: linear-gradient(155deg, var(--ink), color-mix(in srgb, var(--primary) 30%, var(--ink))); color: #fff; max-width: none; }
+.contact .kicker { color: var(--accent); }
+.contact .lede { color: rgba(255,255,255,0.78); }
+.contact-wrap { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+.contact-lines { margin-top: 2rem; display: grid; gap: 0.8rem; }
+.contact-line {
+  display: block; text-decoration: none; background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.14); border-radius: 11px; padding: 0.95rem 1.2rem;
+  transition: background 0.2s ease;
+}
+.contact-line:hover { background: rgba(255,255,255,0.13); }
+.contact-line span { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.25rem; }
+.contact-note { margin-top: 1.4rem; font-size: 0.78rem; color: rgba(255,255,255,0.5); }
+.hours { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 15px; padding: 1.6rem; }
+.hours h3 { font-family: var(--display); font-size: 1.1rem; margin-bottom: 1rem; }
+.hour-row { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.hour-row:last-child { border-bottom: 0; }
+.hour-row span:first-child { color: rgba(255,255,255,0.62); }
+
+footer { background: var(--ink); color: rgba(255,255,255,0.5); text-align: center; padding: 2rem 5vw; font-size: 0.84rem; border-top: 1px solid rgba(255,255,255,0.08); }
+footer p { margin: 0.2rem 0; }
+footer a { color: rgba(255,255,255,0.72); }
+
+@media (max-width: 860px) {
+  .nav-links { display: none; }
+  .about-wrap, .contact-wrap { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn:hover, .card:hover { transform: none; }
+}
+
+.nav { position: static; }
+.hero::after { display: none; }
+.eyebrow { background: none; border: 0; padding: 0; text-transform: none; letter-spacing: 0; font-size: 1rem; }
+.kicker { text-transform: none; letter-spacing: 0; font-size: 1rem; }
+.fact dt, .contact-line span { text-transform: none; letter-spacing: 0; font-size: 0.85rem; }
+.card:hover, .btn:hover { transform: none; box-shadow: none; }
+.card .icon { display: none; }
+a:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+
+:root { --ink: #0F2F57; --primary: #FFD34D; --accent: #FFD34D; --paper: #123A6B; --text: #EAF3FB;
+  --muted: #BCD2E8; --line: rgba(234,243,251,.4); --display: 'Architects Daughter', 'Segoe Print', cursive;
+  --body: 'Public Sans', 'Segoe UI', sans-serif; }
+body { display: flex; flex-direction: column;
+  background-color: #123A6B;
+  background-image: linear-gradient(rgba(234,243,251,.09) 1px, transparent 1px), linear-gradient(90deg, rgba(234,243,251,.09) 1px, transparent 1px);
+  background-size: 28px 28px; }
+h2, .hero h1, .card h3, .brand { font-weight: 400; }
+.demo-banner { background: #0F2F57; border-bottom: 1px solid var(--line); }
+.nav { background: none; border-bottom: 2px solid var(--line); backdrop-filter: none; }
+.nav-links a { color: #EAF3FB; }
+.nav-links a:hover { color: #FFD34D; }
+.mark { background: none; border: 2px solid #FFD34D; color: #FFD34D; border-radius: 0; }
+.btn, .btn-sm { border-radius: 0; }
+.btn-sm, .btn-primary { background: #FFD34D; color: #0F2F57; box-shadow: none; }
+.hero { background: none; padding: clamp(3rem, 7vw, 5.5rem) 5vw; display: grid; grid-template-columns: 1.1fr 1fr; gap: 4vw; align-items: center; overflow: visible; }
+.hero::before { content: ""; order: 2; aspect-ratio: 480 / 400; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 400' fill='none' stroke='%23EAF3FB'%3E%3Cg stroke-width='7'%3E%3Cpath d='M40 50h170M262 50h178v150M440 250v110H250M196 360H40V50'/%3E%3Cpath d='M250 50v120M250 226v134M40 210h130M226 210h24'/%3E%3C/g%3E%3Cg stroke-width='2.5'%3E%3Cpath d='M170 210a56 56 0 0 1 56-56v56'/%3E%3Cpath d='M196 360a54 54 0 0 1 54-54v54'/%3E%3Cpath d='M210 50a52 52 0 0 0 52 52V50'/%3E%3Cpath d='M440 200a50 50 0 0 0-50 50h50'/%3E%3C/g%3E%3Cg stroke='%23FFD34D' stroke-width='2.5'%3E%3Cpath d='M40 22h400M40 14v16M440 14v16'/%3E%3Cpath d='M462 50v310M454 50h16M454 360h16'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; }
+.hero h1 { font-size: clamp(2.6rem, 5.6vw, 4.6rem); line-height: 1.08; letter-spacing: 0; }
+.eyebrow { color: #FFD34D; }
+.hero .lede { color: #EAF3FB; }
+.btn-ghost { border: 1.5px dashed #EAF3FB; }
+.hero-rating { color: #FFD34D; }
+.hero-rating span { color: #EAF3FB; }
+.section, .section.alt { background: none; width: 100%; }
+#about { order: 1; border-block: 2px solid var(--line); }
+#services { order: 2; }
+#reviews { order: 3; padding-block: 1rem 3rem; }
+#contact { order: 4; }
+footer { order: 5; }
+#services .section-head { text-align: left; margin: 0 0 2rem; }
+.kicker { color: #FFD34D; }
+.grid { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0; border: 3px solid #EAF3FB; }
+.card, .card:hover { background: none; border: 0; border-radius: 0; outline: 1.5px dashed var(--line); outline-offset: -1px; padding: 1.8rem 1.4rem; min-height: 190px; }
+.card h3 { font-size: 1.45rem; color: #FFD34D; }
+.card p { color: #EAF3FB; }
+.facts { background: none; border: 2px dashed var(--line); border-radius: 0; }
+.fact { border-color: var(--line); }
+.fact dt { color: #FFD34D; }
+.about-wrap, .contact-wrap { max-width: none; }
+#reviews .section-sub { color: var(--muted); }
+#reviews a { color: #FFD34D; }
+.contact { background: #0F2F57; }
+.contact .kicker, .contact-line span { color: #FFD34D; }
+.contact-line, .hours { border-radius: 0; border: 1.5px dashed var(--line); background: none; }
+.contact-note { color: var(--muted); }
+footer { background: #0F2F57; color: var(--muted); }
+footer a { color: #EAF3FB; }
+@media (max-width: 760px) { .hero { grid-template-columns: 1fr; } .hero::before { order: 0; width: 80%; } }
+</style>
+</head>
+<body>
+
+<div class="demo-banner" role="note">
+  <strong>This is a free demo.</strong>
+  <span>Built for Ehigh Construction by Dylan Lankford — not affiliated with or endorsed by the business. Services shown are a best guess.
+  Want it live on your own domain? <a href="https://dylmlank.github.io/web-design-portfolio/" target="_blank" rel="noopener">See details</a>
+  or call (425) 436-1066.</span>
+</div>
+
+<header class="nav">
+  <a class="brand" href="#top"><span class="mark">EC</span>Ehigh Construction</a>
+  <nav class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-sm" href="tel:+14258680416">(425) 868-0416</a>
+</header>
+
+<section id="top" class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Clean work, clear pricing</span>
+    <h1>Home remodeling in Redmond</h1>
+    <p class="lede">Kitchens, baths, and whole-home renovations, planned with you and built with care.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#contact">Request an Estimate</a>
+      <a class="btn btn-ghost" href="tel:+14258680416">Call (425) 868-0416</a>
+    </div>
+    <div class="hero-rating">★★★★★ <span>5 on Google · 10 reviews</span></div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="section-head">
+    <span class="kicker">What we do</span>
+    <h2>Services</h2>
+  </div>
+  <div class="grid">
+      <article class="card">
+        <div class="icon">🍳</div>
+        <h3>Kitchen Remodels</h3>
+        <p>Layouts, cabinets, and finishes that fit how you actually cook.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🛁</div>
+        <h3>Bath Remodels</h3>
+        <p>From a refresh to a full gut and rebuild.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🏠</div>
+        <h3>Home Renovations</h3>
+        <p>One room or every room, with one crew start to finish.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🏗️</div>
+        <h3>New Construction</h3>
+        <p>Additions and new builds, scoped clearly before work starts.</p>
+      </article>
+  </div>
+</section>
+
+<section id="about" class="section alt">
+  <div class="about-wrap">
+    <div>
+      <span class="kicker">About us</span>
+      <h2>Why people choose Ehigh Construction</h2>
+      <p class="lede">Ehigh Construction serves Redmond, WA and holds a 5-star rating across 10 customer reviews. That kind of reputation isn&#x27;t built on advertising — it&#x27;s built on the contractor people call back. Get in touch.</p>
+      <a class="btn btn-primary" href="#contact">Request an Estimate</a>
+    </div>
+    <dl class="facts"><div class="fact"><dt>Location</dt><dd>21714 NE 76th St, Redmond, WA 98053</dd></div><div class="fact"><dt>Phone</dt><dd><a href="tel:+14258680416">(425) 868-0416</a></dd></div><div class="fact"><dt>Rating</dt><dd>5 / 5 (10 reviews)</dd></div></dl>
+  </div>
+</section>
+
+<section id="reviews" class="section">
+  <div class="section-head">
+    <span class="kicker">Reviews</span>
+    <h2>5 stars from 10 customers</h2>
+    <p class="section-sub">Read them on <a href="https://www.google.com/maps/place/?q=place_id:ChIJn8kpVBpzkFQR89ChfK0sgOc" target="_blank" rel="noopener">Google</a>.</p>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="contact-wrap">
+    <div>
+      <span class="kicker">Get in touch</span>
+      <h2>Request an Estimate</h2>
+      <p class="lede">Give us a call — we'll get you taken care of.</p>
+      <div class="contact-lines"><a class="contact-line" href="tel:+14258680416"><span>Phone</span>(425) 868-0416</a><a class="contact-line" href="https://www.google.com/maps/place/?q=place_id:ChIJn8kpVBpzkFQR89ChfK0sgOc" target="_blank" rel="noopener"><span>Address</span>21714 NE 76th St, Redmond, WA 98053</a></div>
+      <p class="contact-note">Demo site — contact details shown are the business&#x27;s public listing.</p>
+    </div>
+    
+  </div>
+</section>
+<footer>
+  <p>&copy; 2026 Ehigh Construction · 21714 NE 76th St, Redmond, WA 98053</p>
+  <p>Demo website designed by <a href="https://dylmlank.github.io/web-design-portfolio/" target="_blank" rel="noopener">Dylan Lankford</a>
+     · (425) 436-1066</p>
+</footer>
+</body>
+</html>
